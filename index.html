@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Odyssey of Thought and Being</title>
+    <style>
+        /* General reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #2c3e50;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #7f8c8d;
+        }
+
+        .content-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .note, .long-article {
+            width: 48%;
+            background: white;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .note h3, .long-article h3 {
+            font-size: 24px;
+            color: #34495e;
+        }
+
+        .note p, .long-article p {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        .note {
+            flex: 1;
+            min-width: 48%;
+        }
+
+        .long-article {
+            flex: 2;
+            min-width: 48%;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #7f8c8d;
+        }
+
+        /* For small screens */
+        @media (max-width: 768px) {
+            .content-container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .note, .long-article {
+                width: 100%;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>The Odyssey of Thought and Being</h1>
+        <p>Welcome to my personal space where I share notes, reflections, and deep dives into my thoughts.</p>
+    </header>
+
+    <div class="content-container">
+        <!-- Note Section -->
+        <div class="note">
+            <h3>Quick Notes</h3>
+            <p>Here are some brief notes on various topics. Click to read more or expand to see details.</p>
+            <ul>
+                <li><a href="#">Note on Investing Strategies</a></li>
+                <li><a href="#">Reflections on Technology</a></li>
+                <li><a href="#">Brief Thoughts on Personal Growth</a></li>
+            </ul>
+        </div>
+
+        <!-- Long-form Article Section -->
+        <div class="long-article">
+            <h3>Featured Article: Investment Review</h3>
+            <p>This article goes in-depth into my personal views on investment strategies, the current financial market,
+                and the journey of thought over time. Let’s dive into the concepts of value investing, market trends, and
+                reflections on building wealth...</p>
+            <a href="#">Read full article...</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 The Odyssey of Thought and Being. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
